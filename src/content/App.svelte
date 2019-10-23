@@ -42,11 +42,13 @@
                 cancel_reply = document.querySelector(cancel_selector);
             }
         }, 200);
+        emoji = ASTONISHED;
         caution_modal.hide();
     }
 
     //let user continue if they know what they're doing
     function leave_me_alone(){
+        emoji = ASTONISHED;
         caution_modal.hide();
     }
 </script>
